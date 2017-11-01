@@ -1,0 +1,189 @@
+body {
+	background-color: rgb(254,235,201);
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Apple Chancery';
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 10px 3px 3px white;
+	border: solid 2px black;
+	width: 90%;
+	margin: 10px auto;
+}
+
+nav {
+	width: 100%;
+	color: black;
+	position: fixed;
+	top: 0px;
+	height: 50px;
+	background-color: white;
+	border: 2px solid black;
+	float: left;
+	margin: 0;
+	text-decoration: none;
+}
+
+nav a {
+	display: inline-block;
+	
+	max-height: 40px;
+	width: 100px;
+	padding: 20px;
+	
+}
+
+.navspace{
+	height: 50px;
+}
+
+/* INDEX PAGE */
+
+.parentarticles {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	
+	
+}
+
+article {
+	width: 25%;
+	height: 500px;
+	border: 2px solid black;
+	padding: 20px;
+	margin: 0 10px;
+	display: inline-block;
+	position: static;
+	vertical-align: top;
+}	
+
+.articleimage {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* PHOTOS */
+
+.photoGallery {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	height: auto;
+}
+
+.photos {
+	height: auto;
+	margin: 10px auto;
+	border: 2px solid black;
+}
+
+.photos img {
+	width: auto;
+	height: 225px;
+	margin: 2px;
+}
+
+video {
+	max-height: 300px;
+	max-width: 400px;
+}
+.nofloat {
+	clear: both;
+	text-align: center;
+}
+
+/* CONTACT PAGINA */
+
+.contacttable {
+	width:800px;
+	height:auto;
+	margin:0 auto;
+	font-family:'Ubuntu',sans-serif;
+	text-align:left;
+	padding:20px 50px 15px;
+	margin-top:20px;
+	box-shadow:0 0 15px;
+	border-radius:6px;
+	
+}
+th, td {
+	border: 2px solid #2BC1F2;
+	
+	background-color: white;
+	line-height: 20px;
+	padding: 10px;
+}
+
+
+
+#email {
+	font-style: italic;
+}
+
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+form#contactform, #thankyou, #submitelement{
+box-sizing: border-box;
+width: 800px;
+height:auto;
+margin:0 auto;
+font-family:'Ubuntu',sans-serif;
+text-align:center;
+border:1px solid #ccc;
+padding:0 50px 15px;
+box-shadow:0 0 15px;
+border-radius:6px;
+margin-top: 40px;
+}
+
+#contactform h3{
+margin-top:40px
+}
+
+#thankyou{
+	width: 800px;
+	font-size: 24px;
+	margin: 10px auto;
+	padding: 10px;
+	margin-top: 40px;
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+input{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #2BC1F2;
+}
+textarea{
+width:100%;
+border:3px solid #2BC1F2;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+
+#submitelement{
+width:100%;
+padding:10px 45px;
+background-color:#2BC1F2;
+border:none;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
